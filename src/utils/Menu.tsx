@@ -16,6 +16,30 @@ export default function Menu(){
                        Géneros
                      </NavLink>
                   </li>
+                  <li className="nav-item">
+                     <NavLink className="nav-link" activeClassName={claseActiva} 
+                     to="/peliculas/filtrar">
+                       Filtrar Películas
+                     </NavLink>
+                  </li>
+                  <li className="nav-item">
+                     <NavLink className="nav-link" activeClassName={claseActiva} 
+                     to="/actores">
+                       Actores
+                     </NavLink>
+                  </li>
+                  <li className="nav-item">
+                     <NavLink className="nav-link" activeClassName={claseActiva} 
+                     to="/cines">
+                       Cines
+                     </NavLink>
+                  </li>
+                  <li className="nav-item">
+                     <NavLink className="nav-link" activeClassName={claseActiva} 
+                     to="/peliculas/crear">
+                       Crear Películas
+                     </NavLink>
+                  </li>
                 </ul>
                </div>
             </div>
